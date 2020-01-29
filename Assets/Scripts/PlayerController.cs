@@ -6,6 +6,8 @@ public class Controller : MonoBehaviour
 {
     private Rigidbody rb;
 
+    public float speed;
+
     private void Start() {
         rb = GetComponent<Rigidbody>();
     }
@@ -17,6 +19,6 @@ public class Controller : MonoBehaviour
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
-        rb.AddForce(movement);
+        rb.AddForce(movement * speed);
     }
 }
