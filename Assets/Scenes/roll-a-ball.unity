@@ -272,7 +272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score Text:'
+  m_Text: 'Score:'
 --- !u!222 &168356088
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1620,6 +1620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9454192b5ef74240ba75e69d26f6071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpHeight: 50
   scoreText: {fileID: 168356087}
   winText: {fileID: 964142823}
   speed: 10
